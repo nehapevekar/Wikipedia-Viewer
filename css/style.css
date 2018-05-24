@@ -1,0 +1,146 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.or {
+  color: #d8ff45;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+#showcase {
+  background : url("../images/Wikipedia.jpeg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#dark-overlay {
+  color: white;
+  background-color: rgba(16, 41, 40, 0.71);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#random {
+  border: 3px solid #00aa8d;
+  border-radius: 100px;
+  padding: 12px;
+  color: white;
+}
+
+#random:hover {
+  background-color: #00aa8d;
+  border-color: #00aa8d;
+  color: white;
+}
+
+.f1 {
+  background-color: transparent;
+  overflow: visible;
+  border-style: none;
+  border-bottom: 2px solid white;
+  color: white;
+  outline: none;
+  position: relative;
+  width: 0%;
+  transition: all 0.3s ease-in;
+}
+input::placeholder {
+  color: #aaa;
+}
+
+.cnclbtn {
+  display: none;
+}
+.gobtn {
+  display: none;
+}
+
+.card {
+  border: 1px solid transparent;
+  color: white;
+  width: 87%;
+  margin: auto;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+.card:hover {
+  border-color: #0eb8d0;
+}
+h4 {
+  display: inline-block;
+  border-bottom: 4px solid rgb(0, 255, 212);
+  line-height: 1.5;
+}
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+.alert-danger {
+  border-color: #d5949b;
+}
+.alert {
+  padding: 1.2rem;
+  border: 5px solid #d5949b;
+  border-radius: 1.25rem;
+  text-align: center;
+  width: 70vw;
+}
+.cntn {
+  margin: auto;
+}
+.zoomOut {
+  animation-duration: 800ms;
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  -webkit-animation-duration: 700ms;
+  animation-delay: 300ms;
+}
+@media (max-height: 736px) and (max-width: 416px) {
+  #showcase {
+    background: url("https://media.nazaccent.ru/cache/81/e4/81e4ca899bf6bab29df5823926608d11.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .display-4 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1;
+  }
+  .pa {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  .card-text {
+    font-size: 0.8rem;
+  }
+  .card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+input[type="text"]::-ms-clear {
+  display: none;
+}
